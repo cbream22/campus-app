@@ -1,0 +1,32 @@
+/* General page spacing */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Placeholder image borders */
+.placeholder-img {
+  border: 2px dashed #ccc;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Feature button boxes on home page */
+.feature-box div {
+  transition: transform 0.2s;
+  background: white;
+}
+.feature-box div:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Event cards */
+.event-card img {
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Menu box */
+.menu-box {
+  height: 200px;
+}
